@@ -1,0 +1,61 @@
+.container{
+    .registerWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+        .registerWindow {
+            height: 600px;
+            width: 413px;
+            border-radius: 8px;
+            background-color: #ccccf1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .logo {
+                font-family: 'Poppins', sans-serif;
+                font-size: 26px;
+                padding-top: 40px;
+                margin-bottom: 32px;
+            }
+
+            .signUp {
+                font-family: 'Poppins', sans-serif;
+                font-size: 22px;
+                margin-bottom: 35px;
+            }
+
+            .emailWrapper {
+                margin-bottom: 15px;
+            }
+
+            .passwordWrapper {
+                margin-bottom: 15px;
+            }
+
+            .buttons {
+                margin: auto;
+                display: flex;
+
+                .refuseBtn {
+                    margin-right: 30px;
+                }
+
+                .registerBtn {
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}
+
+.spanError {
+    color: red;
+}
+
+
+
+
+

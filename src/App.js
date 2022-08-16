@@ -1,11 +1,16 @@
-
 import DropDownMenu from './components/dropDownMenu/DropDownMenu';
+import RegistrationForm from './components/registratioinForm/RegistrationForm';
 
 
 function App() {
   return (
     <div className="container">
-      <DropDownMenu/>
+          {/* Task #1 */}
+      {/* <DropDownMenu/> */}
+      {/* Task #2 */}
+      <div>
+        <RegistrationForm/>
+      </div>
     </div>
   );
 }
